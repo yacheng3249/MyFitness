@@ -27,6 +27,11 @@ export const Description = styled.div`
       margin: 2rem 0rem 5rem;
     }
   }
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 2rem;
+    }
+  }
 `;
 export const Image = styled.div`
   flex: 1;

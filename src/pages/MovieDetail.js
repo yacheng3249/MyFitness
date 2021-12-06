@@ -62,6 +62,11 @@ const HeadLine = styled.div`
     height: 70vh;
     object-fit: cover;
   }
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 3rem;
+    }
+  }
 `;
 const Awards = styled.div`
   min-height: 80vh;
@@ -95,6 +100,11 @@ const ImageDisplay =styled.div`
     width: 100%;
     height: 100vh;
     object-fit: cover;
+  }
+  @media screen and (max-width: 768px) {
+    img {
+      height: 50vh;
+    }
   }
 `;
 
