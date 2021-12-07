@@ -42,6 +42,11 @@ export const Image = styled.div`
     height: 80vh;
     object-fit: cover;
   }
+  @media screen and (max-width: 768px) {
+    img {
+      height: 50vh;
+    }
+  }
 `;
 export const Hide = styled.div`
   overflow: hidden;

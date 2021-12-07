@@ -78,7 +78,7 @@ const Faq = styled(About)`
     background: #cccccc;
     height: 0.2rem;
     margin: 2rem 0rem;
-    width: 100%
+    width: 100%;
   }
   .question {
     padding: 3rem 0rem;
@@ -89,6 +89,12 @@ const Faq = styled(About)`
     p {
       padding: 1rem 0rem;
     }
+    @media screen and (max-width: 768px) {
+      padding: 0rem;
+    }
+  }
+  @media (max-width: 1300px) {
+    text-align: left;
   }
 `;
 
