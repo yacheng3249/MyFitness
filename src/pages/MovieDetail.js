@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import { MovieState } from "../movieState";
@@ -20,26 +20,26 @@ const MovieDetail = () => {
 
   return (
     <>
-    {movie && (
-      <Detail variants={pageAnimation} initial="hidden" animate="show" exit="exit">
-        <HeadLine>
-          <h2>{movie.title}</h2>
-          <img src={movie.mainImg} alt="movie" />
-        </HeadLine>
-        <Awards>
-          {movie.awards.map((award) => (
-            <Award
-              title={award.title}
-              description={award.description}
-              key={award.title}
-            />
-          ))}
-        </Awards>
-        <ImageDisplay>
-          <img src={movie.secondaryImg} alt="movie" />
-        </ImageDisplay>
-      </Detail>
-    )}
+      {movie && (
+        <Detail variants={pageAnimation} initial="hidden" animate="show" exit="exit">
+          <HeadLine>
+            <h2>{movie.title}</h2>
+            <img src={movie.mainImg} alt="movie" />
+          </HeadLine>
+          <Awards>
+            {movie.awards.map((award) => (
+              <Award
+                title={award.title}
+                description={award.description}
+                key={award.title}
+              />
+            ))}
+          </Awards>
+          <ImageDisplay>
+            <img src={movie.secondaryImg} alt="movie" />
+          </ImageDisplay>
+        </Detail>
+      )}
     </>
   );
 }
@@ -94,7 +94,7 @@ const AwardStyle = styled.div`
     padding: 2rem 0rem;
   }
 `;
-const ImageDisplay =styled.div`
+const ImageDisplay = styled.div`
   min-height: 50vh;
   img {
     width: 100%;
@@ -108,7 +108,7 @@ const ImageDisplay =styled.div`
   }
 `;
 
-const Award = ({title, description}) => {
+const Award = ({ title, description }) => {
   return (
     <AwardStyle>
       <h3>{title}</h3>

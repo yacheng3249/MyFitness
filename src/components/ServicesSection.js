@@ -1,10 +1,10 @@
 import React from 'react';
 //Import Icons
-import clock from '../img/clock.svg';
-import diaphragm from '../img/diaphragm.svg';
-import money from '../img/money.svg';
-import teamwork from '../img/teamwork.svg';
-import home2 from '../img/home2.png';
+import banner11 from '../img/banner11.jpg';
+import banner22 from '../img/banner22.jpg';
+import banner33 from '../img/banner33.jpg';
+import banner44 from '../img/banner44.jpg';
+import t4 from '../img/t4.jpg';
 //Style
 import { About, Description, Image } from "../styles";
 import styled from 'styled-components';
@@ -13,40 +13,40 @@ const ServicesSection = () => {
   return (
     <Services>
       <Description>
-        <h2>High <span>quality</span> services</h2>
+        <h2><span>What we</span> provide?</h2>
         <Cards>
           <Card>
             <div className="icon">
-              <img src={clock} alt="icon" />
-              <h3>Efficient</h3>
+              <img src={banner11} alt="icon" />
+              <h3>BOOT CAMP</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={teamwork} alt="icon" />
-              <h3>Teamwork</h3>
+              <img src={banner22} alt="icon" />
+              <h3>CROSSFIT</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={diaphragm} alt="icon" />
-              <h3>Diaphragm</h3>
+              <img src={banner33} alt="icon" />
+              <h3>DANCE MOVES</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={money} alt="icon" />
-              <h3>Affordable</h3>
+              <img src={banner44} alt="icon" />
+              <h3>YOGA</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </Card>
         </Cards>
       </Description>
       <Image>
-        <img src={home2} alt="camera" />
+        <img src={t4} alt="athlete" />
       </Image>
     </Services>
   );
@@ -69,6 +69,7 @@ const Cards = styled.div`
   }
 `;
 const Card = styled.div`
+  margin-right: 1rem;
   flex-basis: 20rem;
   .icon {
     display: flex;
@@ -76,9 +77,10 @@ const Card = styled.div`
   }
   h3 {
     margin-left: 1rem;
-    background: white;
-    color: black;
-    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  img {
+    border-radius: 50%;
   }
 `;
 

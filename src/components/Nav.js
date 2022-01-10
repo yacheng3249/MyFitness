@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 
 const Nav = () => {
-  const {pathname} = useLocation();
+  const { pathname } = useLocation();
   return (
     <StyledNav>
       <h1>
         <Link to="/capture" id="logo">
-          Capture
+          MyFitness
         </Link>
       </h1>
       <ul>

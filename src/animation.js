@@ -29,7 +29,7 @@ export const titleAnim = {
       ease: "easeOut"
     }
   }
-} 
+}
 
 export const fade = {
   hidden: { opacity: 0 },

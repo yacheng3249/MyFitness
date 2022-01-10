@@ -21,6 +21,7 @@ function App() {
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
+        {/* Switch stops as soon as it finds the first match. */}
           <Route path="/capture" exact>
             <AboutUS />
           </Route>
