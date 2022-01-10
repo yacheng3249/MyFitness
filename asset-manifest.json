@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/MyFitness/static/js/main.d07ef23b.chunk.js",
+    "main.js.map": "/MyFitness/static/js/main.d07ef23b.chunk.js.map",
+    "runtime-main.js": "/MyFitness/static/js/runtime-main.bde30ed2.js",
+    "runtime-main.js.map": "/MyFitness/static/js/runtime-main.bde30ed2.js.map",
+    "static/js/2.1b49b5e5.chunk.js": "/MyFitness/static/js/2.1b49b5e5.chunk.js",
+    "static/js/2.1b49b5e5.chunk.js.map": "/MyFitness/static/js/2.1b49b5e5.chunk.js.map",
+    "static/js/3.2e1e13aa.chunk.js": "/MyFitness/static/js/3.2e1e13aa.chunk.js",
+    "static/js/3.2e1e13aa.chunk.js.map": "/MyFitness/static/js/3.2e1e13aa.chunk.js.map",
+    "index.html": "/MyFitness/index.html",
+    "static/js/2.1b49b5e5.chunk.js.LICENSE.txt": "/MyFitness/static/js/2.1b49b5e5.chunk.js.LICENSE.txt",
+    "static/media/athlete-small.9c7a85d4.png": "/MyFitness/static/media/athlete-small.9c7a85d4.png",
+    "static/media/athlete2.b216a5ad.png": "/MyFitness/static/media/athlete2.b216a5ad.png",
+    "static/media/good-times2.4ea1be17.jpg": "/MyFitness/static/media/good-times2.4ea1be17.jpg",
+    "static/media/goodtimes-small.94ab060d.png": "/MyFitness/static/media/goodtimes-small.94ab060d.png",
+    "static/media/t4.fdb32827.jpg": "/MyFitness/static/media/t4.fdb32827.jpg",
+    "static/media/the-racer2.580f15cd.jpg": "/MyFitness/static/media/the-racer2.580f15cd.jpg",
+    "static/media/theracer-small.51874213.png": "/MyFitness/static/media/theracer-small.51874213.png",
+    "static/media/wel.1a65e773.jpg": "/MyFitness/static/media/wel.1a65e773.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bde30ed2.js",
+    "static/js/2.1b49b5e5.chunk.js",
+    "static/js/main.d07ef23b.chunk.js"
+  ]
+}
