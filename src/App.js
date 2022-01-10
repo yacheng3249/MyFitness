@@ -21,17 +21,17 @@ function App() {
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
-        {/* Switch stops as soon as it finds the first match. */}
-          <Route path="/capture" exact>
+          {/* Switch stops as soon as it finds the first match. */}
+          <Route path="/MyFitness" exact>
             <AboutUS />
           </Route>
-          <Route path="/capture/work" exact>
+          <Route path="/MyFitness/work" exact>
             <OurWork />
           </Route>
-          <Route path="/capture/work/:id">
+          <Route path="/MyFitness/work/:id">
             <MovieDetail />
           </Route>
-          <Route path="/capture/contact">
+          <Route path="/MyFitness/contact">
             <ContactUs />
           </Route>
         </Switch>

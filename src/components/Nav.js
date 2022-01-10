@@ -9,13 +9,13 @@ const Nav = () => {
   return (
     <StyledNav>
       <h1>
-        <Link to="/capture" id="logo">
+        <Link to="/MyFitness" id="logo">
           MyFitness
         </Link>
       </h1>
       <ul>
         <li>
-          <Link to="/capture">About Us</Link>
+          <Link to="/MyFitness">About Us</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: '0%' }}
@@ -23,7 +23,7 @@ const Nav = () => {
           />
         </li>
         <li>
-          <Link to="/capture/work">Our Work</Link>
+          <Link to="/MyFitness/work">Our Work</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: '0%' }}
@@ -31,7 +31,7 @@ const Nav = () => {
           />
         </li>
         <li>
-          <Link to="/capture/contact">Contact Us</Link>
+          <Link to="/MyFitness/contact">Contact Us</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: '0%' }}
