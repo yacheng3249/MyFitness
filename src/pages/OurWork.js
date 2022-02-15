@@ -23,7 +23,7 @@ const OurWork = () => {
         <Frame4 variants={slider}></Frame4>
       </motion.div>
       <Movie>
-        <motion.h2 variants={fade}>The Athlete</motion.h2>
+        <motion.h2 variants={fade}>Daniel</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/MyFitness/work/the-athlete">
           <Hide>
@@ -32,14 +32,14 @@ const OurWork = () => {
         </Link>
       </Movie>
       <Movie>
-        <h2>The Racer</h2>
+        <h2>Anita</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/MyFitness/work/the-racer">
           <img src={theracer} alt="theracer" />
         </Link>
       </Movie>
       <Movie>
-        <h2>Good Times</h2>
+        <h2>Adam & Eva</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/MyFitness/work/good-times">
           <img src={goodtimes} alt="goodtimes" />

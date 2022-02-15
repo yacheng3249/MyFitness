@@ -46,7 +46,12 @@ const GlobalStyle = createGlobalStyle`
 
   h4 {
     font-weight: bold;
-    font-size: 2rem
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    font-weight: normal;
   }
 
   span {
