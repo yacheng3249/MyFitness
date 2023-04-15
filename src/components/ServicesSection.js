@@ -1,47 +1,50 @@
-import React from 'react';
+import React from "react";
 //Import Icons
-import banner11 from '../img/banner11.jpg';
-import banner22 from '../img/banner22.jpg';
-import banner33 from '../img/banner33.jpg';
-import banner44 from '../img/banner44.jpg';
-import t4 from '../img/t4.jpg';
+import banner11 from "../img/banner11.jpg";
+import banner22 from "../img/banner22.jpg";
+import banner33 from "../img/banner33.jpg";
+import banner44 from "../img/banner44.jpg";
+import t4 from "../img/t4.jpg";
 //Style
 import { About, Description, Image } from "../styles";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const ServicesSection = () => {
   return (
     <Services>
       <Description>
-        <h2><span>What we</span> provide?</h2>
+        <h2>
+          Our Fitness
+          <span> Programs</span>
+        </h2>
         <Cards>
           <Card>
             <div className="icon">
               <img src={banner11} alt="icon" />
-              <h3>BOOT CAMP</h3>
+              <h3>BOOTCAMP</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Get fit with intensive training</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={banner22} alt="icon" />
               <h3>CROSSFIT</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Build strength and endurance with high-intensity workouts</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={banner33} alt="icon" />
               <h3>DANCE MOVES</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Learn to move and groove with different dance styles</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={banner44} alt="icon" />
               <h3>YOGA</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Relax and rejuvenate with yoga poses and meditation</p>
           </Card>
         </Cards>
       </Description>
@@ -50,7 +53,7 @@ const ServicesSection = () => {
       </Image>
     </Services>
   );
-}
+};
 
 const Services = styled(About)`
   h2 {
@@ -65,7 +68,7 @@ const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
   @media (max-width: 1300px) {
-   justify-content: center;
+    justify-content: center;
   }
 `;
 const Card = styled.div`
